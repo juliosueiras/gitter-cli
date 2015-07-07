@@ -1,4 +1,4 @@
-# Fork of ![gitter-cli](https://github.com/RodrigoEspinosa/gitter-cli)
+# Fork of [gitter-cli](https://github.com/RodrigoEspinosa/gitter-cli)
 # Gitter client for your terminal
 
 ![gitter-cli example](https://dl.dropboxusercontent.com/u/73676286/GitHub/gitter-cli-example-2.gif)
