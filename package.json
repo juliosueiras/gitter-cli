@@ -7,7 +7,9 @@
     "gitter-cli": "./bin/gitter-cli"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -48,6 +50,8 @@
     "pygmentize-bundled-cached": "^1.1.0",
     "q": "^1.4.1",
     "winston": "^1.0.0",
-    "wordwrap": "0.0.2"
-  }
+    "wordwrap": "0.0.2",
+    "snyk": "^1.46.0"
+  },
+  "snyk": true
 }
